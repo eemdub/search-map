@@ -1,5 +1,5 @@
 <h4>
-    <%= obj["Facility Name"] %>
+    <%= obj["Park Name"] %>
 </h4>             
 <p>
     <%= formatAddress(obj) %><br />
@@ -10,10 +10,10 @@
     <% } %>
 </p>
 
-<% if (obj["Cost"]) { %>
+<% if (obj["Notes"]) { %>
     <p>
-        <strong>Cost</strong><br />
-        <%= obj["Cost"] %>
+        <strong>Park Notes</strong><br />
+        <%= obj["Notes"] %>
     </p>
 <% } %>
 
