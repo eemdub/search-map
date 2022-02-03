@@ -8,11 +8,11 @@ $(window).resize(function () {
 $(function() {
 
   SearchableMapLib.initialize({
-    filePath: 'data/chicago-flu-shot-locations-2019.csv',
+    filePath: 'data/mkeparks_data.csv',
     fileType: 'csv',
-    recordName: 'flu shot location',
-    recordNamePlural: 'flu shot locations',
-    map_centroid: [41.85754, -87.66231],
+    recordName: 'milwaukee park',
+    recordNamePlural: 'milwaukee parks',
+    map_centroid: [43.031882048624325, -87.93787862889839],
     defaultZoom:  11,
     defaultRadius: 1610,
     debug: false,
